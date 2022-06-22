@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.urls import reverse_lazy
+from django.urls import reverse,reverse_lazy
 from re import template
 from I4G021698KD0.blog.models import Post
 from django.views.generic import ListView 
